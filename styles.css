@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Boldonse", system-ui;
+    font-weight: 0;
+    font-style: normal;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #464646;
+}
+
+.card {
+    width: 100%;
+    max-width: 470px;
+    background: linear-gradient(130deg, #33ff39, #cf33ff);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: none;
+    outline: none;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 8px 10px; 
+    cursor: pointer;
+}
+
+.search button img {
+    width: 30px;
+    background-color: #ffffff;
+}
+
+.weather-icon {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    align-items: center;
+}
+
+.weather h1 {
+    font-size: 50px;
+}
+
+.weather h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Đẩy 2 phần tử ra xa nhau */
+    padding: 10px 0;
+    gap: 10px; /* Giãn cách giữa chúng */
+    margin-top: 40px;
+}
+
+.col {
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.details img {
+    width: 50px;
+    margin-right: 13px;
+}
+
+.humidity, .wind {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.weather {
+    display:none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    display: none;
+}
